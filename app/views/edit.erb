@@ -1,0 +1,8 @@
+<h1>edit</h1>
+
+<form action="/skill_list/<%= @id %>" method='post'>
+  <input type='hidden' name='_method' value='PUT'/>
+  <input type='text' name='skill[name]'/>
+  <textarea type='text' name='skill[description]'></textarea>
+  <button type='submit'>update</button>
+</form>

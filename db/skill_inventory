@@ -1,0 +1,7 @@
+---
+counter: 1
+skills:
+- !ruby/object:Skill
+  id: 1
+  name: horse
+  description: neigghhh
